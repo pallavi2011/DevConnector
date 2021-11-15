@@ -1,3 +1,6 @@
 {
-    "mongoURI":"mongodb+srv://pallavi123:pallavi123@devconnector.gu6b0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://pallavi123:pallavi123@devconnector.gu6b0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret":"Mumbai",
+    "githubclientid":"d7e1f9eb6ba7f767a44e",
+    "githubsecret":"e3552753a9555dd4b57eb0362a631292c8658f02"
 }
