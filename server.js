@@ -2,14 +2,14 @@ const express = require('express');
 const { connect } = require('mongoose');
 const connectDB = require('./config/db');
 
-const app = express()
+const app = express();
 
 connectDB();
 
 //Init middleware
 app.use(express.json({extended: false}));
 
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT || 5000;
 
 app.get('/', (req, res) => res.send('API running'));
 
